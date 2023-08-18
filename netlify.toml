@@ -1,0 +1,11 @@
+[[redirects]]
+    from = "/git/*"
+    to = "https://github.com/CelestiaKai/qqquestionmmmark/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 404
+    force = false
