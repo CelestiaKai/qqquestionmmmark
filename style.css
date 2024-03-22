@@ -10,6 +10,7 @@
 
     --max-w: 1300px;
 
+    --fs0: 9px;
     --fs1: 14px;
     --fs2: 24px;
 }
@@ -56,6 +57,30 @@ body {
 
 #play-button:hover {
     background-color: var(--black);
+}
+
+#truth-button {
+    position: fixed;
+    bottom:-10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--fs0);
+    padding: 1px 0px;
+    border: none;   
+    background-color: var(--black);
+    color: black;
+}
+
+#truth-button:hover {
+    position: fixed;
+    bottom:-10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--fs0);
+    padding: 10px 0px;
+    border: none;
+    background-color: var(--black);
+    color: white;
 }
 
 #hidden-text {
